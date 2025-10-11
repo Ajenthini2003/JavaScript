@@ -55,5 +55,23 @@ console.log(result);
 
 
 
+const users1=[
+    { name: "Ram",age: 25},
+    { name: "Tiya",age: 35},
+    { name: "Raja",age: 45},
+    { name: "Sam",age: 15},
+];
+
+function isEligible(element){
+    return element.age>=18;
+}
+
+result =users1.every(isEligible);
+console.log("every eligible:", result);
+
+result =users1.some(isEligible);
+console.log("some eligible:", result);
+
+
 
 
