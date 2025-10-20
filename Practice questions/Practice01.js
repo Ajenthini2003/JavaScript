@@ -4,7 +4,7 @@ console.log("3.5+6.8=" +value);
 
 function addTwoNumbers(){
     console.log("3.544+6.8555="+(parseFloat('3.544')+parseFloat('6.8555')).toFixed(3));
-    
+
 }
 addTwoNumbers();
 
